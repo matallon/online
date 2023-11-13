@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<script src="mouseFollowers.js" type="text/javascript"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="CSS/style.css">
+	<title>projects</title>
+  </head>  
+  <body>
+	<div class="header" id="myHeader">
+		<nav id="navlinks">
+		<!--script loads nav into this tag-->
+		</nav>
+		<script>
+		$(function(){
+			$("#navlinks").load("nav.html");
+		});
+		</script>  
+	</div>
+    <h1>Gig visuals</h1>
+        <div id="wrapper">
+            <p> Real time camera and audio reactive shaders, projected behind the bands playing. Software originally made for GAFF Edinburgh gigs, but can be used for any performance! Photos are from 29/09/2023. At this event I also included a variety of animations so each act at the gig could select visuals that complemented their individual sound.</p>
+            <div class="slider">
+                <div class="slides">
+                <img id="img-1" src="GAFF SUMMERHALL-6.jpg" alt="Image 1"/>
+                <img id="img-2" src="GAFF SUMMERHALL108-3.jpg" alt="Image 2"/>
+                <img id="img-3" src="GAFF SUMMERHALL108-5.jpg" alt="Image 3"/>
+                <img id="img-4" src="GAFF SUMMERHALL108-6.jpg" alt="Image 4"/>
+                <img id="img-5" src="GAFF SUMMERHALL108-10.jpg" alt="Image 5"/>
+                </div>
+                <div class="navigation-button">
+                <button class="prev" onclick="changeSlide(0, -1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(0, 1)">&#10095;</button>
+                </div>
+            </div>
+            <p>I'm happy to license the software for certain events/groups if you contact me, or alternatively hire me to VJ your gig!</p>
+        </div> 
+        <div id="footer">
+            @marytallontire
+        </div>
+        <script src="sticky.js" type="text/javascript"></script>
+        <script src="slideshow.js"></script>
+    </body>
+</html>
