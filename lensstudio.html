@@ -9,12 +9,16 @@
 	<link rel="stylesheet" href="CSS/style.css">
 	<title>Lens Studio</title>
     <style>
-        .slides {
-            width: 50%;
+     .imageContainer {
+            width:100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+			background-color:#f1f1f1;
+        }
+        .imageContainer img {
+            width: 70%; /* This makes the image take 100% of the container width */
             height: auto;
-            position: relative;
-            margin-left: auto;
-            margin-right: auto;
+            padding: 8px;
         }
     </style>
   </head>  
@@ -32,23 +36,19 @@
     <h1>Lens Studio</h1>
         <div id="wrapper">
             <p> </p>
-            <p>AR filters developed within Snapchat's Lens Studio. </p>
-            <div class="slider">
-                <div class="slides">
+            <h3>AR filters developed within Snapchat's Lens Studio. </h3>
+            <p>I work with a variety of tools within Lens Studio to create various different AR experiences. These images are mainly me messing with camera shaders, which has been proving really interesting, however I have made a lots of more traditional SnapChat filters which can be found on my account below. These filters collectively have around 3 million views on SnapChat. 
+                <p>Please contact me for any enquiries in regards to my freelance lens work, I'd be happy to talk about it!</p>
+                <a href="https://lensstudio.snapchat.com/creator/JPXU2jZc1w0lSCduahGFvg" target="_blank">my lenses can be found here!</a>
+                <br> 
+                <br> 
+            <div class="imageContainer">
                 <img id="img-1" src="assets/lenses/lens1.JPG" alt="Image 1"/>
                 <img id="img-2" src="assets/lenses/lens3.JPG" alt="Image 2"/>
                 <img id="img-3" src="assets/lenses/lens2.JPG" alt="Image 3"/>
                 <img id="img-4" src="assets/lenses/lens4.JPG" alt="Image 4"/>
                 <img id="img-5" src="assets/lenses/lens5.JPG" alt="Image 5"/>
-                </div>
-                <div class="navigation-button">
-                <button class="prev" onclick="changeSlide(0, -1)">&#10094;</button>
-                <button class="next" onclick="changeSlide(0, 1)">&#10095;</button>
-                </div>
             </div>
-            <p>I'm working with a variety of tools within Lens Studio, and am currently developing some more gamified face filters. Please contact me for any enquiries in regards to my freelance lens work, I'd be happy to talk about it!</p>
-            <a href="https://lensstudio.snapchat.com/creator/JPXU2jZc1w0lSCduahGFvg" target="_blank">my lenses can be found here!</a>
-            </div> 
         <div id="footer">
             @marytallontire
         </div>

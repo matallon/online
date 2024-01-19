@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<script src="mouseFollowers.js" type="text/javascript"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="CSS/style.css">
+	  <link rel="icon" href="favicon.png" type="image/png">
+	<title>projects</title>
+    <style>
+        .imageContainer {
+            width:100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+			background-color:white;
+        }
+        .imageContainer img {
+            width: 100%; /* This makes the image take 100% of the container width */
+            height: auto;
+        }
+    </style>
+  </head>  
+  <body>
+	<div class="header" id="myHeader">
+		<nav id="navlinks">
+		<!--script loads nav into this tag-->
+		</nav>
+		<script>
+		$(function(){
+			$("#navlinks").load("nav.html");
+		});
+		</script>  
+	</div>
+    <h1>Illustration</h1>
+        <div id="wrapper">
+            <p>Digital illustration work, mainly done under the name Murkybucket. Consists of single lined, black and white artwork as well as traditional illustrations which have been featured in a multitude of academic articles (linked below!)</p>
+            <br>
+            <h2>One Line</h2>
+            <div class="imageContainer">
+                <img src="assets/clouds.jpg" alt="Image 2">
+                <img src="assets/flowerhead.png" alt="Image 1">
+                <img src="assets/strings.png" alt="Image 3">
+                <img src="assets/eyes.jpg" alt="Image 4">
+                <img src="assets/flower mug.jpg" alt="Image 5">
+                <img src="assets/flower eye.png" alt="Image 6">
+            </div>
+            <p> I take commissions on my <a href="https://murkybucket.etsy.com"> Etsy account</a> for these lined drawings, and also sell both digital and physical prints if you're interested.</p>
+            <p> My associated<a href="https://www.pinterest.co.uk/murkybucket/"> Pinterest account</a> with these drawings and animations on has also been extremely successful, with some pins reaching tens of millions of views.</p>
+            <br>
+            <h2> Other Illustrations</h2>
+            <div class="imageContainer">
+                <img src="assets/2019.png" alt="Image 1">
+                <img src="assets/2022.jpg" alt="Image 2">
+                <img src="assets/coffee.jpeg" alt="Image 4">
+            </div>
+            <p>These illustrations were commissioned for <a href="https://www.nature.com/articles/s41560-020-0553-5">an article in Nature Energy</a>, an <a href="https://social-policy.org.uk/news/spa-blog-the-climate-challenge-making-net-zero-socially-inclusive/">article for the Social Policy Association,</a> and various other articles.</p>
+            <p>If you're looking for more of this style of illustration please contact me through my <a href="mailto:marytallontire02@outlook.com"> email!</a></p>
+        </div>
+        <div id="footer">
+            @marytallontire
+        </div>
+        <script src="sticky.js" type="text/javascript"></script>
+        <script src="slideshow.js"></script>
+    </body>
+</html>

@@ -8,6 +8,18 @@
 	<link rel="stylesheet" href="CSS/style.css">
 	  <link rel="icon" href="favicon.png" type="image/png">
 	<title>projects</title>
+	<style>
+        .imageContainer {
+            width:100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .imageContainer img {
+            width: 100%; /* This makes the image take 100% of the container width */
+            height: auto;
+			padding: 8px;
+        }
+    </style>
   </head>  
   <body>
 	<div class="header" id="myHeader">
@@ -60,17 +72,16 @@
 			<iframe width="600" height="315" src="https://www.youtube.com/embed/CwK44Iyrxb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 		<h3> At Beams: </h3>
-		<div class="slider">
-			<div class="slides">
+		<div class="imageContainer">
+			<a target="_blank" href="assets/beams2.png">
+				<img id="img-12" src="assets/beams2.png" alt="Image 5"/>
+			</a>
+			<a target="_blank" href="assets/naebeams.png">
 				<img id="img-12" src="assets/naebeams.png" alt="Image 5"/>
-				<img id="img-13" src="assets/beams2.png" alt="Image 6"/>
-				<img id="img-14" src="assets/beams3.png" alt="Image 7"/>
-				<img id="img-15" src="assets/beams4.png" alt="Image 8"/>
-			</div>
-			<div class="navigation-button">
-				<button class="prev" onclick="changeSlide(1, -1)">&#10094;</button>
-				<button class="next" onclick="changeSlide(1, 1)">&#10095;</button>
-			</div>
+			</a>
+			<a target="_blank" href="assets/beams3.png">
+				<img id="img-12" src="assets/beams3.png" alt="Image 5"/>
+			</a>
 		</div>
 	</div>
 
