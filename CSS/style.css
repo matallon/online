@@ -179,12 +179,12 @@ iframe {
 #footer {
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+	width: 99%;
 	height: 4%;   /* Height of the footer */
 	background: #cd20ad;
 	color:#f1f1f1;
 	text-align: center;
-	font-family:'Times New Roman', Times, serif;
+	font-family: 'PT Sans';
 	font-size: larger;
 }
 
@@ -202,4 +202,22 @@ div.title {
 div.tags{
 	width: 40%;
 	margin:auto;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 3%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+div.grid{
+	margin:auto;
+	width: 80%;
 }
