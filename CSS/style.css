@@ -25,7 +25,6 @@ h3{
 	margin-left: auto; /* centers the element */
 	margin-right: auto; /* centers the element */
 	width:70%;
-	padding:10px;
 }
 
 #itchframe{
@@ -51,15 +50,14 @@ img{
 }
 
 p{
-	text-align: inherit;
 	font-size: large;
 	font-family: 'PT Sans';
-
 }
 
 a{
 	text-decoration: none;
-	color: #d2d2d2;
+	color: #b5b5b5;
+
 	font-family: 'PT Sans';
 	font-size: large;
 }
@@ -83,6 +81,9 @@ nav{
 	text-align: center;
 	color: #d2d2d2;
 	font-family: 'PT Sans';
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 /* Style the header */
 .header {
@@ -205,6 +206,7 @@ div.tags{
 }
 
 .column {
+	margin:auto;
 	float: left;
 	width: 33.33%;
 	padding: 3%;
@@ -221,6 +223,9 @@ div.tags{
 div.grid{
 	margin:auto;
 	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -229,6 +234,7 @@ div.grid{
 	top: 0;
 	bottom: 0;
 	margin-top: 200px;
+	margin-left:20px;
   }
 
   .background {
