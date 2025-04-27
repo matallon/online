@@ -2,61 +2,59 @@
 <html lang="en">
   <head>
 	<script src="mouseFollowers.js" type="text/javascript"></script>
+	<script src="repeat.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
 	<meta charset="utf-8">
 	<link rel="icon" href="favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<canvas style="display:none" id="canvas"></canvas>
-	<title>contact</title>
-	<style>
+    <style>
         body {
-		  background-image: url('assets/pinkTreesPortraitCrop.jpg');
+		  background-image: url('assets/trres3.png');
 		}
     </style>
   </head>  
   <body>
 	<div class="header" id="myHeader">
 		<nav id="navlinks"></nav>
-		<script>$(function(){$("#navlinks").load("nav.html");});</script>  
+		<script>
+		$(function(){
+			$("#navlinks").load("nav.html");
+		});
+		</script>  
 	</div>
-	<div class="title">
-		<img src="assets/titles/contact.png" style="width:70%; margin:auto;">
+    <div class="title">
+		<img src="assets/titles/contact.png">
 	</div>
-	<div id="wrapper">
-		<br>
-		<img src="assets/rect.png" style="filter: blur(4px); backdrop-filter: blur(1px); height:500px" class="background">
-		<div class="overlay" style="text-align: left; margin-left: 5%;">
-			<p>Please feel free to get in contact with me, I am happy to chat about anything and everything.</p> 
-			<a href="mailto:marytallontire02@outlook.com">my email - marytallontire02@outlook.com</a>
-			<br>
-			<br>
-			<p> Alternatively, reach out to me on any of my various social medias!</p>
-			<br>
-			<a href="https://instagram.com/marytallontire"> my instagram - @marytallontire</a>
-			<br>
-			<br>
-			<a href="https://twitter.com/marytallontire">my twitter - @marytallontire</a>
-			<br>
-			<br>
-			<a href="https://matallon.itch.io/"> my itch.io - @matallon</a>
-			<br>
-			<br>
-			<a href="https://lensstudio.snapchat.com/creator/JPXU2jZc1w0lSCduahGFvg"> my lens studio profile - marytallontire</a>
-			<br>
-			<br>
-			<a href="https://murkybucket.etsy.com"> my etsy - MurkyBucket</a>
-			<br>
-			<br>
-			<a href="https://www.pinterest.co.uk/murkybucket/"> my pinterest - MurkyBucket</a>
-			<br>
-		</div>
-	</div> 
+	<br>
+	<div class="relative" style="width: 80%; margin: auto">
+		<img src="assets/rect.png" style="filter: blur(4px); backdrop-filter: blur(1px); height: 500px;" class="background">
+			<div class="overlay" style="width:75%; text-align: center;">
+				<h2>Let's chat!</h2>
+				<p> I'm happy to talk about anything and everything. </p>
+				<p> I'm currently completing a masters in Edinburgh, but  I am looking </p>
+				<p> for projects to get involved with after this, in September 2025,</p>
+				<p> particularly in the north of the UK!</p>
+				<br>
+				<p> reach me at marytallontire02@outlook.com</p>
+				<p> or at any of my social media accounts </p>
+				<br>
+				<a href="https://matallon.itch.io/"><img src="assets/icons/itch.png" style="width:5%; padding:10px;"></a>
+				<a href="https://instagram.com/marytallontire"><img src="assets/icons/instagram.png" style="width:4.7%; padding:10px;"></a>
+				<a href="https://www.linkedin.com/in/marytallontire/"><img src="assets/icons/linkedin.png" style="width:4.7%; padding:10px;"></a>
+				<a href="https://bsky.app/profile/marytallontire.bsky.social"><img src="assets/icons/bluesky.png" style="width:4.7%; padding:10px;"></a>
+			</div>
+	</div>
+	</div>
 	<div id="footer">
 		@marytallontire
 	</div>
 	<script src="sticky.js" type="text/javascript"></script>
+	<script src="slideshow.js"></script>
   </body>
 </html>
