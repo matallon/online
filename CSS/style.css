@@ -283,12 +283,11 @@ div.logos{
 		margin:auto;
 		width: 100%;
 		display: table;
-
 	}
 	
 	.column {
 		margin:auto;
-		width: 50%;
+		width: 33.33%;
 	}
 	  
 	  /* Clear floats after image containers */
