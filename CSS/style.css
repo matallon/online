@@ -255,7 +255,7 @@ div.logos{
 		position: absolute;
 		top: 0;
 		bottom: 0;
-		margin-top: 20%;
+		margin-top: 28%;
 		margin-left:20px;
 	  }
 
@@ -267,4 +267,38 @@ div.logos{
 		display: flex;
 		left:20%;
 	}
+
+	div.title {
+		width: 99%;
+		margin:auto;
+	}
+
+	div.tags{
+		width: 99%;
+		height:120%;
+		margin:auto;
+	}
+	
+	div.grid{
+		margin:auto;
+		width: 100%;
+		display: table;
+
+	}
+	
+	.column {
+		margin:auto;
+		width: 50%;
+	}
+	  
+	  /* Clear floats after image containers */
+	  .row::after {
+		content: "";
+		clear: both;
+		display: table;
+		background-color:rgba(89, 11, 108, 0.677);
+	  }
+	
+
+
 }
