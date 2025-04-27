@@ -281,13 +281,12 @@ div.logos{
 	
 	div.grid{
 		margin:auto;
-		width: 100%;
 		display: table;
 	}
 	
 	.column {
 		margin:auto;
-		width: 33.33%;
+		width: 80%;
 	}
 	  
 	  /* Clear floats after image containers */
@@ -298,6 +297,8 @@ div.logos{
 		background-color:rgba(89, 11, 108, 0.677);
 	  }
 	
-
+	  .background{
+		height: 2760px;
+	  }
 
 }
