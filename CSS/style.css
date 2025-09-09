@@ -243,11 +243,8 @@ div.grid{
 
 div.logos{
 	width:20%; 
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 40%;
 	display: flex;
-	left:42%
 }
 
 @media only screen and (max-width: 600px) {
