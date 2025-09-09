@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	  <link rel="icon" href="favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<link rel="stylesheet" href="CSS/style.css">
 	<title>Lens Studio</title>
@@ -13,13 +14,15 @@
             width:100%;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-			background-color:#f1f1f1;
         }
         .imageContainer img {
             width: 70%; /* This makes the image take 100% of the container width */
             height: auto;
             padding: 8px;
         }
+        body {
+		  background-image: url('assets/tres3blur.jpg');
+		}
     </style>
   </head>  
   <body>

@@ -5,8 +5,8 @@
 
 body{
 	font-family: 'PT Sans';
-	background-color: #920678;
 	color: #f1f1f1;
+	background-color: #cd20ad;
 	background-image: url('assets/pinkTreesPortraitCrop.jpg');
 }
 
@@ -84,7 +84,7 @@ nav{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	text-emphasis-color: #920678 ;
+	padding-left: 2px;
 }
 /* Style the header */
 .header {
