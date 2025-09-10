@@ -212,6 +212,13 @@ div.tags{
 	width: 33.33%;
 	padding: 3%;
   }
+
+  .column2 {
+	margin:auto;
+	float: left;
+	width: 50%;
+	padding: 3%;
+  }
   
   /* Clear floats after image containers */
   .row::after {
@@ -277,7 +284,6 @@ div.logos{
 		margin-left: auto;
 		margin-right: auto;
 		left:20%;
-		padding: 2px;
 	}
 
 	div.title {
@@ -302,6 +308,14 @@ div.logos{
 		width: 100%;
 		display: block;
 	}
+
+
+	.column2 {
+		margin-left:auto;
+		margin-right:auto;
+		width: 100%;
+		display:flexbox;
+	}
 	  
 	  /* Clear floats after image containers */
 	  .row::after {
@@ -310,4 +324,11 @@ div.logos{
 		display: table;
 		background-color:rgba(89, 11, 108, 0.677);
 	  }
+
+	  iframe {
+		text-align: center;
+		margin-left: auto; /* centers the element */
+		margin-right: auto; /* centers the element */
+		width: 100%;
+	}
 }
