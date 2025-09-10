@@ -169,7 +169,10 @@ iframe {
 	width: 35%;
   }
 
-  
+  .relative{
+	width:100%;
+  }
+
   div.rightGal:hover {
 	border: 3px solid #f1f1f1;
   }
@@ -199,6 +202,7 @@ div.scroll-container {
 div.title {
 	width: 50%;
 	margin:auto;
+	font-family: Rubik Scribble;
 }
 
 div.tags{
@@ -237,14 +241,16 @@ div.grid{
 	display: block;
 }
 
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	margin-top: 13%;
-	margin-left:20px;
-  }
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		text-align: center;
+		margin-top: 15%;
+		margin-left:20%;
+		margin-right:20%;	
+		width: 60%;
+	}
 
   .background {
 	display: block;
@@ -266,10 +272,13 @@ div.logos{
 
 @media only screen and (max-width: 600px) {
 	.overlay {
-		position: absolute;
+		position: block;
 		top: 0;
 		bottom: 0;
 		margin-top: 36%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 97%;
 	  }
 
 	.background{
@@ -278,7 +287,11 @@ div.logos{
 		width: 100%;
 	}
 
-	  div.logos{
+	#wrapper{
+		width:100%;
+	}
+
+	div.logos{
 		width:80%; 
 		position: block;
 		margin-left: auto;
@@ -298,8 +311,9 @@ div.logos{
 	}
 	
 	div.grid{
+		display:block;
+		width:90%;
 		margin:auto;
-		display: table;
 	}
 	
 	.column {
@@ -308,7 +322,6 @@ div.logos{
 		width: 100%;
 		display: block;
 	}
-
 
 	.column2 {
 		margin-left:auto;
@@ -331,4 +344,9 @@ div.logos{
 		margin-right: auto; /* centers the element */
 		width: 100%;
 	}
+
+	.relative{
+		width: 100%;
+  	}
+
 }
