@@ -16,8 +16,9 @@ h1, h2{
 }
 
 h3{
-	text-align: center;
 	font-size:17px;
+	display: block;
+	width: 100%;
 }
 
 #wrapper{
@@ -34,12 +35,12 @@ h3{
 }
 
 #quoted{
-	width: 90%;
+	width: 98%;
 	border-style:solid;
-	border-width: 5px;
+	border-width: 2px;
 	border-top:#f1f1f1;
 	border-bottom: #f1f1f1;
-	padding: 2%;
+	padding: 1%;
 	display: block; /* see documentation for "display" !*/
 	margin-left: auto; /* centers the element */
 	margin-right: auto; /* centers the element */
@@ -128,7 +129,7 @@ iframe {
 
 .slides img {
 	width: 70%;
-	height: auto;
+	height: 400px;
 	margin-left: auto; /* centers the element */
 	margin-right: auto; /* centers the element */
 }
@@ -146,11 +147,28 @@ iframe {
 	position: relative;
 	padding: 1%;
 	font-size:large;
+	size: 5%;
   }
   .active,
   .dot:hover {
-	background-color: #e7e7e7;
+	background-color: #e6257f;
   }
+
+.prev{
+	background: none;
+	color:#b5b5b5;
+	width: 5%;
+	padding: 5px;
+}
+
+.next{
+	background: none;
+	width: 5%;
+	color:#b5b5b5;
+
+	padding: 5px;
+}
+
 
   div.gallery {
 	margin: 5px;
@@ -165,6 +183,8 @@ iframe {
   div.gallery img {
 	width: 100%;
   }
+
+
 
   div.rightGal {
 	margin: 5px;
@@ -239,6 +259,15 @@ div.grid{
 	margin-left:auto;
 	margin-right:auto;
 	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div.grid2{
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
