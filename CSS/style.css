@@ -160,13 +160,20 @@ iframe {
 	width: 5%;
 	padding: 5px;
 }
+.prev:hover{
+	background-color: #cd20ad;
+	border:none;
+}
 
 .next{
 	background: none;
 	width: 5%;
 	color:#b5b5b5;
-
 	padding: 5px;
+}
+.next:hover{
+	background-color: #cd20ad;
+	border:none;
 }
 
 
@@ -380,5 +387,23 @@ div.logos{
 	.relative{
 		width: 100%;
   	}
+
+	.slides img {
+		width: 90%;
+		height: 250px;
+		margin-left: auto; /* centers the element */
+		margin-right: auto; /* centers the element */
+	}
+
+	.prev{
+		width: 40%;
+		padding: 5%;
+		text-size: 20%;
+	}
+
+	.next{
+		width: 40%;
+		padding: 5%;
+	}
 
 }
