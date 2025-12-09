@@ -8,6 +8,8 @@ body{
 	color: #f1f1f1;
 	background-color: #cd20ad;
 	background-image: url('assets/pinkTreesPortraitCrop.jpg');
+	background-repeat:repeat-x;
+	background-size: cover;
 }
 
 h1, h2{
