@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<script src="mouseFollowers.js" type="text/javascript"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="icon" href="favicon.png" type="image/png">
+  <link href='https://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Rubik Scribble' rel='stylesheet'>
+	<title>projects</title>
+  <style>
+    .slides img {
+      width: 35%;
+      margin-left: center; /* centers the element */
+      margin-right: center; /* centers the element */
+    }
+    body {
+		  background-image: url('assets/tres3blur.jpg');
+		}
+
+</style>
+  </head>  
+  <body>
+	<div class="header" id="myHeader">
+		<nav id="navlinks">
+		<!--script loads nav into this tag-->
+		</nav>
+		<script>
+		$(function(){
+			$("#navlinks").load("nav.html");
+		});
+		</script>  
+	</div>
+    <h1 style="font-family: Rubik Scribble;">Music Visuals</h1>
+        <div id="wrapper">
+          <div class="grid2">
+					  <div class="column2">
+              <p> Real time graphics for music gigs. These include camera and audio reactive shaders as well as immersive 3D environments, which in most iterations have been projected behind the bands playing. I originally started developing these for <a href="https://www.instagram.com/gaff__ed/">GAFF Edinburgh gigs</a>, but I've since been continuing to create more immersive visuals as part of the group <a href="https://www.instagram.com/astridvonderpahlen/">@astridvonderhalen</a></p>
+              <a href="https://matallon.itch.io/gigs" target="_blank">demo of the visuals here</a>
+              <p> I'm open to working with other organisations and bands if you're looking for real time visuals. I'm currently based in Leeds but am happy to travel for a gig. Please contact me with any questions and for my rates, I'm happy to answer everything and anything! </p>
+              <p> I'm interested in experimenting with ways the band and audience can interact with graphics throughout the show, e.g. through the band being able to interact with visuals during the show through a Kinect and specific poses, or audiences on their phones before the band starts. There's lots of potential! </p>
+              <br>
+            </div>
+					  <div class="column2">
+              <div class="slider" style="width: 100%;">
+                <div class="slides" style="width: 100%;">
+                <img id="img-1" style="height:600px; width: 90%; " src="GAFF SUMMERHALL-6.jpg" alt="GAFF"/>
+                <img id="img-2" style="height:600px; width: 100%;" src="GAFF SUMMERHALL108-3.jpg" alt="GAFF"/>
+                <img id="img-3" style="height:600px; width: 100%;" src="GAFF SUMMERHALL108-5.jpg" alt="GAFF"/>
+                <img id="img-4" style="height:600px; width: 90%;" src="GAFF SUMMERHALL108-6.jpg" alt="GAFF"/>
+                <img id="img-5" style="height:600px; width: 90%;" src="GAFF SUMMERHALL108-10.jpg" alt="GAFF"/>
+                </div>
+                <div class="navigation-button">
+                <button class="prev" onclick="changeSlide(0, -1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(0, 1)">&#10095;</button>
+                </div>
+            </div>
+          </div>
+        </div>
+            <br>
+            <img id="img-1" src="assets/astrid/georgepinkforest.JPG" alt="Image 1"/>
+            <div class="grid2">
+					    <div class="column2">
+                <img id="img-1" src="assets/astrid/hannahroads.JPG" alt="Image 1"/>
+                <img id="img-1" src="assets/astrid/georgeforest.JPEG" alt="Image 1"/>
+              </div>
+					  <div class="column2">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/afFmbNw1Hsw?si=u3tGFkM2xbbfnLbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <img id="img-1" src="assets/astrid/bass.JPG" alt="Image 1"/>
+            </div>
+          </div>
+          <br>
+          <br>
+        </div> 
+        <div id="footer">
+            @marytallontire
+        </div>
+        <script src="sticky.js" type="text/javascript"></script>
+        <script src="slideshow.js"></script>
+    </body>
+</html>
