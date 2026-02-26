@@ -349,6 +349,13 @@ div.zines{
 	line-height: 0.1;
 	position:fixed;
 }
+#tumblr{
+	width:50%;
+	 display: block; 
+	 margin: auto; color:
+	rgba(0,0,0,0);
+	z-index: 10;
+}
 
 @media only screen and (max-width: 600px) {
 	.overlay {
@@ -362,7 +369,11 @@ div.zines{
 	  }
 
 	#youtube{
-		height: 40vh;
+		height: 30vh;
+	}
+
+	#tumblr{
+		width: 100%;
 	}
 
 	.background{
@@ -400,8 +411,9 @@ div.zines{
 	
 	div.grid{
 		display:block;
-		width:90%;
+		width:80%;
 		margin:auto;
+		column-count: 1;
 	}
 	
 	.column {
