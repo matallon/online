@@ -83,6 +83,20 @@ a{
 	font-weight:bold; 
 }
 
+#fronttext{
+	width:70%;
+}
+
+.card {
+    width: 400px;
+    height: 270px;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: grab;
+    position: absolute;
+    cursor: url("assets/claw.png"), pointer;
+}
+
 /*STYLING THE NAVIGATION BAR*/
 nav{
 	width: 100%;
@@ -225,6 +239,7 @@ iframe {
 	text-align: center;
 	font-family: 'PT Sans';
 	font-size: larger;
+	z-index: 100;
 }
 
 div.scroll-container {
@@ -321,6 +336,20 @@ div.zines{
 	display:block;
 }
 
+#coverwidget{
+	background-color: #cd20ad;
+	width: 25%;
+	height: 5%;
+	display: block;
+	margin-left: auto;
+	border-radius: 5%;
+	text-align: center;
+	top: 0px;
+	z-index: 90;
+	line-height: 0.1;
+	position:fixed;
+}
+
 @media only screen and (max-width: 600px) {
 	.overlay {
 		position: block;
@@ -332,10 +361,18 @@ div.zines{
 		width: 97%;
 	  }
 
+	#youtube{
+		height: 40vh;
+	}
+
 	.background{
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
+	}
+
+	#fronttext{
+		width:90%
 	}
 
 	#wrapper{
@@ -416,4 +453,9 @@ div.zines{
 		width: 40%;
 		padding: 5%;
 	}
+
+	.card {
+    width: 0px;
+    height: 0px;
+  }
 }
