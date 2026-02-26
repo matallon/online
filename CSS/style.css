@@ -323,7 +323,7 @@ div.grid2{
   }
 
 div.logos{
-	width:20%; 
+	width:10%; 
 	margin-left: auto;
 	display: flex;
 }
@@ -391,7 +391,7 @@ div.zines{
 	}
 
 	div.logos{
-		width:80%; 
+		width:50%; 
 		position: block;
 		margin-left: auto;
 		margin-right: auto;
