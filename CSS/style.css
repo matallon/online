@@ -437,7 +437,7 @@ div.zines{
 		margin-right:auto;
 		width: 100%;
 		display:flexbox;
-		height: 670px;
+		height: 100vh;
 	}
 	  
 	  /* Clear floats after image containers */
